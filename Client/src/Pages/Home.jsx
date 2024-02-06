@@ -1,8 +1,15 @@
 import React from 'react'
+import Carousel from '../Components/Carousel'
+
+
 
 function Home() {
   return (
-    <div>Home</div>
+    <div>
+        <section className=''>
+            <Carousel/>
+        </section>
+    </div>
   )
 }
 

@@ -11,14 +11,14 @@ function App() {
   
 
   return (
-    <div className='bg-slate-600'>
+    <div className=''>
      <Header/>
      <Routes>
-      <Route to='/' element={<Home/>}/>
-      <Route to='/About' element={<About/>}/>
-      <Route to='/Achievments' element={<Achievments/>}/>
-      <Route to='/Events' element={<Events/>}/>
-      <Route to='/Contact' element={<Contact/>}/>
+      <Route path='/' element={<Home/>}/>
+      <Route path='/About' element={<About/>}/>
+      <Route path='/Achievments' element={<Achievments/>}/>
+      <Route path='/Events' element={<Events/>}/>
+      <Route path='/Contact' element={<Contact/>}/>
      </Routes>
     </div>
   )

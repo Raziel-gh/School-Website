@@ -6,6 +6,7 @@ import About from './Pages/About'
 import Achievments from './Pages/Achievments'
 import Events from './Pages/Events'
 import Contact from './Pages/Contact'
+import Footer from './Components/Footer'
 
 function App() {
   
@@ -20,6 +21,7 @@ function App() {
       <Route path='/Events' element={<Events/>}/>
       <Route path='/Contact' element={<Contact/>}/>
      </Routes>
+     <Footer/>
     </div>
   )
 }

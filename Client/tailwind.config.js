@@ -5,9 +5,9 @@ export default {
   theme: {
     extend: {
       colors:{
-        'header':'#7D5A5A',
-        'navbar':'#F1D1D1',
-        'backg' : '#F3E1E1'
+        'header':'#1B262C',
+        'navbar':'#0F4C75',
+        'backg' : '#BBE1FA'
       }
     },
   },

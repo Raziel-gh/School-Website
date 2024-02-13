@@ -26,7 +26,7 @@ function Home() {
         </section>
 
         <h2 className='text-xl text-black mt-24 m-8 text-center'>Quick Links</h2>
-        <section className='quick-links mt-[20px] max-w-[1200px] lg:pl-[5rem] p-8 gap-8 auto-cols-auto grid md:grid-cols-4 md:h-[500px] border-black/100 border-solid w-full m-auto'>
+        <section className='quick-links mt-[20px] max-w-[1200px] lg:pl-[5rem] p-8 gap-16 auto-cols-auto grid md:grid-cols-4 md:h-[500px] border-black/100 border-solid w-full m-auto'>
             
             <div className='link-1 w-[250px]  h-[300px] m-4 md:pl-2 justify-self-center text-center text-black'>
                 <h5>Admissions</h5>

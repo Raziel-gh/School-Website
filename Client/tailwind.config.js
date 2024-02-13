@@ -5,8 +5,8 @@ export default {
   theme: {
     extend: {
       colors:{
-        'header':'#1B262C',
-        'navbar':'#0F4C75',
+        'header':'#0F4C75',
+        'navbar':'#3282B8',
         'backg' : '#BBE1FA'
       }
     },

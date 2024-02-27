@@ -1,4 +1,6 @@
 import React, { useState } from 'react'
+import Header from '../Components/Header'
+import Footer from '../Components/Footer'
 
 function Achievments() {
 
@@ -21,6 +23,8 @@ function Achievments() {
 
 
   return (
+    <div>
+      <Header/>
     <section className='Contact w-full h-1/2  text-black mt-8 grid grid-cols-4'>
         <div className='p-8 mx-12'>
         <ul className='side-links list-outside list-decimal'>
@@ -32,6 +36,8 @@ function Achievments() {
         <div className='p-8 mx-12 col-span-2'>{useContent(content)}</div>
 
     </section>
+    <Footer/>
+    </div>
   )
 }
 

@@ -7,21 +7,23 @@ import Achievments from './Pages/Achievments'
 import Events from './Pages/Events'
 import Contact from './Pages/Contact'
 import Footer from './Components/Footer'
+import Login from './Pages/Login'
 
 function App() {
   
 
   return (
     <div className=''>
-     <Header/>
+
      <Routes>
-      <Route path='/' element={<Home/>}/>
+      <Route path='/' element={<Login/>}/>
+      <Route path='/Home' element={<Home/>}/>
       <Route path='/About' element={<About/>}/>
       <Route path='/Achievments' element={<Achievments/>}/>
       <Route path='/Events' element={<Events/>}/>
       <Route path='/Contact' element={<Contact/>}/>
      </Routes>
-     <Footer/>
+
     </div>
   )
 }

@@ -1,8 +1,14 @@
 import React from 'react'
+import Header from '../Components/Header'
+import Footer from '../Components/Footer'
 
 function Events() {
   return (
-    <div>Events</div>
+    <div>
+      <Header/>
+      <h1>Events</h1>
+      <Footer/>
+    </div>
   )
 }
 
